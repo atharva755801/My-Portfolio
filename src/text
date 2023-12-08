@@ -1,0 +1,11 @@
+
+@Shubham-Lal
+8 months ago (edited)
+Hey everyone, just to leave a heads up that we can use react-parallax-tilt instead of react-tilt so that we don't have to face library peer dependency issues while deploying the project.
+
+Edit: 
+At 12:00, use react-parallax-tilt instead of react-tilt and remove --legacy-peer-deps from the command.
+Also wherever you are using: import Tilt from "react-tilt", replace it with your new library like this: import Tilt from "react-parallax-tilt".
+
+And some of you might be facing an error: Could not resolve three (something like this), the fix is to add "three" along with other libraries while npm installation
+"./desktop_pc/scene.gltf"
