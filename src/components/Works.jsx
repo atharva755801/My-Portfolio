@@ -72,14 +72,14 @@ const Works = () => {
   return (
     <>
      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p >My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-3 text-[17px] max-w-3xl leading-[35px] text-black text-2xl font-semibold font-serif'
         >
           No, I have not created these websites. I don't want to degrade my skills by creating such websites as building these are just no brainer for me. Soon I will replace these projects with my own. Till then you can look at what other low quality websites look like.
         </motion.p>
