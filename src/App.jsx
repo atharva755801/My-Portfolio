@@ -6,8 +6,8 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 my-gradient'>
-        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
-          <Navbar />
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center rounded-3xl '>
+          <Navbar /> 
           <Hero />
         </div>
         <About />
