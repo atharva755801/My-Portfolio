@@ -98,7 +98,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Message.</span>
             <textarea rows='7' name='message' value={form.message} onChange={handleOnChange}
             placeholder="Go ahead. Make my day."
-            className='bg-emerald-600 py-4 px-6 placeholder: text-secondary text-white rounded-lg outlined-none border-none font-medium'></textarea>
+            className='bg-emerald-600 py-4 px-6 placeholder: text-secondary text-white rounded-lg outlined-none border-none font-medium' required></textarea>
           </label>
           <button
           type="submit"
