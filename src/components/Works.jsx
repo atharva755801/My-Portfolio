@@ -81,8 +81,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-[17px] max-w-3xl leading-[35px] text-black text-2xl font-semibold font-serif'
         >
-          No, I have not created these websites. I don't want to degrade my skills by creating such websites as building these are just no brainer for me. Soon I will replace these projects with my own. Till then you can look at what other low quality websites look like.
-        </motion.p>
+          Following projects showcases my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage projects effectively.        </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (

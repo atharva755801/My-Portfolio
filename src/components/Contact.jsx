@@ -75,7 +75,7 @@ const Contact = () => {
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
       className="flex-[0.75] bg-emerald-900 p-8 rounded-2xl">
-        <p className={styles.sectionSubText}>Let's do some BIZZness.</p>
+        <p className={styles.sectionSubText}>Let's do some Business.</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <form
         ref={formRef}
@@ -86,7 +86,7 @@ const Contact = () => {
             <span className='text-white font-medium mb-4'>Your Name.</span>
             <input type='text' name='name' value={form.name} onChange={handleOnChange}
             placeholder="Your good name pls."
-            className='bg-emerald-600 py-4 px-6 placeholder: text-secondary text-white rounded-lg outlined-none border-none font-medium'></input>
+            className='bg-emerald-600 py-4 px-6 placeholder: text-secondary text-white rounded-lg outlined-none border-none font-medium' required ></input>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Email.</span>

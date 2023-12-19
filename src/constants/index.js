@@ -4,23 +4,18 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
    
     threejs,
     infosys,
-    apple,
-    PP,
-    RR,
+    GPT3,
+    RCT,
   } from "../assets";
   
   export const navLinks = [
@@ -186,16 +181,16 @@ import {
   
   const projects = [
     {
-      name: "Apple",
+      name: "GPT3",
       description:
-        "Web-based platform that allows users to buy some of the most cheapest and affordable gadgets in the world. ",
+        "ChatGPT3 landing page clone transformed from a figma design that is built fully responsive with modern UI/UX",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
@@ -203,51 +198,51 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: apple,
-      source_code_link: "https://www.apple.com/in/",
+      image: GPT3,
+      source_code_link: "https://github.com/atharva755801/gpt3",
     },
     {
-      name: "Patek Philippe",
+      name: "RCTech",
       description:
-        "Web application that enables users to buy watches. Although you can find better watches in your nearby flea markets at much lesser price",
+        "An E-Commerce website where you can buy and sell electronic items built using HTML,css in frontend and Java, springboot and hibernate for backend",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML,CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Springoot, Hibernate",
           color: "pink-text-gradient",
         },
       ],
-      image: PP,
-      source_code_link: "https://www.patek.com/en/home",
+      image: RCT,
+      source_code_link: "https://github.com/Rushabh-C/RC_Tech",
     },
-    {
-      name: "Rolls Royce",
-      description:
-        "A comprehensive Car buying platform. Luxury can be compromised in these cars but that is what you get at those cheap rates.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: RR,
-      source_code_link: "https://www.rolls-roycemotorcars.com/en_GB/home.html",
-    },
+    // {
+    //   name: "Rolls Royce",
+    //   description:
+    //     "A comprehensive Car buying platform. Luxury can be compromised in these cars but that is what you get at those cheap rates.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: RR,
+    //   source_code_link: "https://www.rolls-roycemotorcars.com/en_GB/home.html",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

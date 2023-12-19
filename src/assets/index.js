@@ -21,12 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-
 import infosys from './company/infosys.png';
-
-import apple from "./apple.jpeg";
-import RR from "./download1.jpg";
-import PP from "./download.jpg";
+import GPT3 from "./GPT3.jpg";
+import RCT from './RCT.jpg'
 
 export {
   logo,
@@ -51,7 +48,6 @@ export {
   typescript,
   threejs,
   infosys,
-  apple,
-  PP,
-  RR,
+  GPT3,
+  RCT
 };

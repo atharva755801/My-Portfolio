@@ -4,9 +4,9 @@ const styles = {
     padding: "sm:px-16 px-6 sm:py-16 py-10",
 
     heroHeadText:
-      "font-family:Algerian font-black text-white lg:text-[62px] sm:text-[60px] xs:text-[50px] text-[60px] lg:leading-[90px] mt-2",
+      "font-family:Algerian font-black text-white lg:text-[73px] sm:text-[60px] xs:text-[50px] text-[60px] lg:leading-[90px] mt-8",
     heroSubText:
-      "text-[#dfd9ff] font-medium lg:text-[23px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px]",
+      "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px] my-8",
   
     sectionHeadText:
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
