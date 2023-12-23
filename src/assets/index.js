@@ -25,6 +25,8 @@ import infosys from './company/infosys.png';
 import GPT3 from "./GPT3.jpg";
 import RCT from './RCT.jpg'
 
+import Resume from './AtharvaSingh.pdf'
+
 export {
   logo,
   backend,
@@ -49,5 +51,6 @@ export {
   threejs,
   infosys,
   GPT3,
-  RCT
+  RCT,
+  Resume
 };

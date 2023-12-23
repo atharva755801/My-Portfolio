@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, Resume} from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -50,6 +50,12 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <li>
+           <a href={Resume} className="button ">
+           <i class="fa fa-download"></i>
+          Download CV
+    </a>
+          </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
