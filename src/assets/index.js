@@ -25,7 +25,7 @@ import infosys from './company/infosys.png';
 import GPT3 from "./GPT3.jpg";
 import RCT from './RCT.jpg'
 
-import Resume from './AtharvaSingh.pdf'
+import Resume from './Atharva1.pdf'
 
 export {
   logo,

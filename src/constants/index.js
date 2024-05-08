@@ -103,9 +103,9 @@ import {
       iconBg: "#ffffff",
       date: "June 2022 - February 2023",
       points: [
-        "Developed and managed a successful ecommerce website, overseeing end-to-end development and maintenance.",
+        "Developed and managed a successful ecommerce website, overseeing development and maintenance.",
         "Using Selenium I built out a unit testing infrastructure for a client application that reduced the number of bugs reported by the client.",
-        "Utilized SQL and PL/SQL for efficient database design and management, ensuring data integrity and performance",
+        "Utilized SQL for efficient database design and management, ensuring data integrity and performance",
         "Collaborated with cross-functional teams to analyze user requirements and deliver high-quality software solutions.",
         "Utilized GitHub for version control, collaborating with team members and tracking changes.",
         "Managed and tracked project progress using Jira, ensuring timely delivery and efficient workflow."
